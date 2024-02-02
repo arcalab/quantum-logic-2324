@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Quantum Logic 2021-2022</title>    
+  <title>Quantum Logic 2023-2024</title>    
 
   <meta name="description" content="QL 21/22 website">
   <meta name="keywords" content="Quantum computing, process calculi, Logic">
@@ -46,10 +46,10 @@
 
  
 <div class="splash">
-  <h2 class="splash-title">Quantum Logic (2021-22)</h2>
+  <h2 class="splash-title">Quantum Logic 2023-24</h2>
 <!--  <div class="blue-rect"> 
 -->
-  <h4 class="splash-subtitle">MIEFis - MSc in Physics Engineering </h4>
+  <h4 class="splash-subtitle">MEF - MSc in Physics Engineering </h4>
   <h4 class="splash-subtitle"> Dep. Informática, Universidade do Minho</h4>
   </div>
 
@@ -61,22 +61,23 @@
 <h2>Objectives and learning outcomes</h2>
 
 <p>
-The development of quantum information and computation entails the need for  formal tools to model, verify and reason rigorously about quantum programs. This course explores the connection between (quantum) computation, (resource-sensitive) logic, and category theory, given by the Curry-Howard-Lambek correspondence, which identifies propositions with types and proofs with programs, and formalizes the model space as a (monoidal) category.
-
+The development of quantum information and computation entails the need for  formal tools to model, verify and reason rigorously about quantum programs. This course explores 
+<ul>
+  <li>
+ the connection between (quantum) computation, (resource-sensitive) logic, and category theory, given by the Curry-Howard-Lambek correspondence, which identifies propositions with types and proofs with programs, and formalizes program semantics as a (monoidal) category; </li>
+  <li>
+ the specification of quantum algoritms and protocols in the (diagramatic) language of monoidal categories.  </li>
+</ul>
 
 Thus, in the end, students will be able to apply to the development of quantum programs a solid and operative knowledge in
+semantics and logics for quantum programs.
 <p>
 
-<ul>
-  <li> 
- semantics and logics for quantum programs.
-</ul>
-</p>
 
-
-<h2>NEW: List of Research Exercises</h2>
+<!--<h2>NEW: List of Research Exercises</h2>
 
 All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/TP-21-22">HERE</a>
+-->
 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -84,30 +85,25 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
 <h2>Syllabus</h2>
 
 <ul>
-<li> <strong>Categories for quantum computing </strong>
+<li> <strong>Module 1: The Curry-Howard-Lambek correspondence for classical and quantum computation. </strong>
 <ul>
-  <li> Categories, funtors, and natural transformations.
-  <li> Universal properties and adjunctions.
-  <li> Monoidal categories; Aplications: (categories of) relations, matrices, and Hilbert spaces.
+  <li> The Curry-Howard-Lambek isomorphism for intuitionistic logic.
+  <li> The Curry-Howard-Lambek isomorphism for linear logic.
+  <li> The Curry-Howard-Lambek isomorphism for quantum logic.
 </ul> 
- <li> <strong> Diagramatic reasoning in monoidal categories </strong>
+ <li> <strong> Module 2: Specifying and reasoning about quantum programs in monoidal categories </strong>
   <ul>
-  <li> Diagramatic representations of monoidal categories. String diagrams.
-  <li> Computational interpretation of quantum mechanics; associated categorical structures: monoidal (composition), compact closed (entanglement), adjunctions (internal product), biproduts (non deterministic branching).
+  <li> Monoidal categories and string diagrams. 
+  <li> Computational interpretation of quantum mechanics.  Associated categorical structures: monoidal (composition), compact closed (entanglement), adjunctions (internal product), biproduts (non deterministic branching).
   <li> Quantum processes.
+   <li> The ZX-calculus. 
 </ul> 
-<li> <strong> The Curry-Howard-Lambek correspondence.</strong>
-<ul>
-  <li> Introduction to intuitionistic and linear logic. 
-  <li> Introduction to the simply-typed lambda-calculus.
-  <li> Quantum lambda-calculus.
-  <li> The Curry-Howard-Lambek correspondence for classical computation.  
-  <li> The Curry-Howard-Lambek correspondence for quantum computation. 
- </ul>    
+</ul>
+
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~-->
 <div id="material"></div>
-<h2>Summaries (2021-22)</h2>
+<h2>Summaries (2023-24)</h2>
 
 <h5> T Lectures</h5>
 <ul> 
@@ -117,10 +113,11 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
  -->
 
 <li>
-  <strong>Feb 15 (11-13h):</strong> 
+  <strong>Feb 6 (11-13h):</strong> 
   Introduction to the course: objectives, learning outcomes, organisation.
-   Categories: definition and worked examples. 
+  The Curry-Howard-Lambek isomorphism for intuitionistic logic.
   </li>
+  <!--
   <li>
   <strong>Feb 22 (11-13h):</strong> 
    Functors: definition and worked examples. 
@@ -174,7 +171,7 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
    <strong>May 24 (11-13h):</strong> 
   Revisiting Cartesian-closed categories. The exponential object. The Curry-Howard-Lambek correspondence for classical computation.
   </li>
-  <!--
+  
    <li>
   <strong>Nov 13 (14-16h):</strong> 
    <P> String diagrams. Non-separability. Representing transpose, adjoint, trace, conjugate, and inner product. <P>
@@ -288,11 +285,11 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
 <ul>
 
 <li>
-  <strong>Feb 18 (08-10h):</strong> 
-  Familiar and less familiar examples of categories. Exercises on defining / checking the strucutre of a category. Exercises on rephrasing well-known, pointwise results in the language of categories: Isomorphisms, monomorphisms and epimorphisms.
+  <strong>Feb 6 (09-11h):</strong> 
+  Practice on the Curry-Howard-Lambek isomorphism for intuitionistic logic.
 </li>
-
-
+</ul>
+<!--
 <li>
   <strong>Feb 24 (09-11h):</strong> 
   Exercises on functors. Full and faithful functors. The categories CAT and Cat. Isomorphisms between categories.
@@ -334,104 +331,14 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
    Simply typed lambda-calculus. The Curry-Howard correspondence with intuitionistic logic.
   </li>
 </ul>
-<!--
-<li>
-<strong>Nov, 06 (16-18h):</strong> 
-   Exercises on natural transformations. 
-   <P>
-   	<strong> <font color="red">Live session</font>: </strong>Join on zoom
-  <a href="https://videoconf-colibri.zoom.us/j/89052297552?pwd=VFBud0k2RGlFb1RhUzZ0bFpPdk9PQT09"> here! </a>
-  </p> 
-  </li>
-  <li>
-  <strong>Nov, 9 (09-11h):</strong> 
-  Exercises on circuits and monoidal categories (symmetric, strict and non strict). 
-</li>
- <li>
-  <strong>Nov, 16 (09-11h):</strong> 
-  Exercises on string diagrams. 
-</li>
-<li>
-  <strong>Nov, 23 (09-11h):</strong> 
-  Exercises on string diagrams. An example of equivalence of categories. 
-</li>
-<li>
-  <strong>Dec, 3 (09-11h):</strong> 
-  Exercises on the theory of linear maps.  
-</li>
-<li>
-  <strong>Dec, 15 (09-11h):</strong> 
-  Exercises on the theory of quantum processes.  The teleportation protocol 
-  <a href="LQ-Nota-14-12-20.pdf"> (handwritten note) </a>.
-</li>
-<li>
-  <strong>Jan, 4 (09-11h):</strong> 
-  Exercises on lambda calculus and intuitionistic logic.
-</li>
-<li>
-  <strong>Jan, 11 (09-11h):</strong> 
-  Exercises on typed lambda calculus and the CHL correspondence for classical computation.
-</li>
--->
-<!--
-<li>
-  <strong>Sep 16 (14-16h)</strong> 
-  Exercises on rephrasing well-known, pointwise results in the language of categories: monos, epis and isos.
-  Examples of functors.
-</li>
-<li>
-  <strong>Sep 23 (11-13h):</strong> 
-  Exercises on functors: forgetful and free functors; covariant and contravariant hom functors. Properties of functors. Preservation and reflection of properties by functors. Examples.
-</li>
-  <li>
-  <strong>Oct 3 (11-13h) --- re-scheduled from 30 Set:</strong> 
-  Exercises on products and coproducts. Discussion of universal constructions.
-</li>
-<li>
-  <strong>Oct 14 (11h-13h):</strong> 
-  Natural transformations --- worked examples
-</li>
-<li>
-  <strong>Oct 18 (11-13h) --- re-scheduled from 7 Oct:</strong> 
-  Exercises on representable functors. Proof of the lemma of Yoneda. 
-</li>
-<li>
-  <strong>Oct 21 (11h-13h):</strong> 
-  Exercises on intuitionistic propositional logic.
-</li>
-<li>
-  <strong>Oct 28 (11-13h):</strong> 
-  Exercises on the untyped lambda calculus 
-</li>
-<li>
-  <strong>Nov 4 (9-11h) </strong> 
-  Exercises on the simply-typed lambda calculus and the Curry-Howard correspondence.
-</li>
-<li>
-  <strong>Nov 5 (14.30-16.30h) </strong> 
-  Quantum lambda calculus II (invited lecture by Benoit Valiron).
-</li>
-<li>
-  <strong>Nov 11 (11-13h) </strong> 
-  Exercises on the classical Curry-Howard-Lambek correspondence. 
-</li>
-<li>
-  <strong>Nov 25 (11-13h) </strong> 
-  Exercises with monads.
-  (Lecture by Renato Neves, INESC TEC)
-</li>
-<li>
-  <strong>Dez 09 (11-13h) </strong> 
-  Exercises on quantum lambda calculus: syntax, operational semantics, typing system.
-</li>
- -->
-</ul>
+
 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~-->
 <div id="material"></div>
 <h2>Support</h2>
 
+<!--
 <h5> Lecture Notes / Exercises</h5>
 <ul> 
 <li ><a href="LQ-Lec1.pdf">
@@ -478,19 +385,7 @@ All information available <a href="http://arca.di.uminho.pt/quantum-logic-2122/T
 <li ><a href="LQ-CHL5.pdf">
     Lecture 14: The quantum lambda calculus and the Curry-Howard-Lambek correspondence for quantum  computation </a> 
 </li>
-<!--
 
-<li ><a href="LQ-Processes6.pdf">
-    Lecture 10: The theory of quantum processes </a> 
-</li>
-<li ><a href="LQ-CHL1.pdf">
-    Lecture 11: Untyped lambda calculus </a> 
-</li>
-
-
-<li ><a href="LQ-CHL5.pdf">
-    Lecture 15: A quantum lambda calculus. The Curry-Howard-Lambek correspondence for quantum computation </a> 
-</li>
 -->
 <!--
 
@@ -599,9 +494,11 @@ pages 261–324. North-Holland, Elsevier, 2011.
 </li>
 </ul>
 
-<h5> Links </h5>
+<h5> Links </h5>  
 <ul>
-<li>The <a href="https://inl.int/quantum-materials/quantum-software-engineering/">Quantum Software Engineering Group</a> and 
+<li>The  
+<a href="https://zxcalculus.com/">ZX-calculus</a> webpage</li>
+<li>The  
 <a href="https://inl.int/quantum-materials/quantum-and-linear-optical-computation/">Quantum and Linear-Optical Computation Group</a>
 at <a href="https://inl.int">INL</a> </li>
 <li><a href="http://arca.di.uminho.pt">Arca website</a> at  <a href="https://www.inesctec.pt/en">INESC TEC</a> </li>
@@ -613,38 +510,41 @@ at <a href="https://inl.int">INL</a> </li>
 <h2>Pragmatics</h2>
 
 
-<h5><a name="Docente"></a> Lecturer </h5>
+<h5><a name="Docente"></a> Lecturers </h5>
 <ul>
   <li><a href="http://www.di.uminho.pt/~lsb">Luís Soares Barbosa</a></li>
+  <li><a href="https://www.norileo.com/">Nori Yamada</a></li>
 </ul>
 
 <h5><a name="Avaliação"></a> Assessment </h5>
 
 <ul>
-<li> Individual resolution of exercises along the semester and final written essay
-  <P>
+<li> (40%) Individual resolution of 6 take-home exercises along the semester (3 per each module)
     <ul> 
-<li >Exercise 1 (Exercise 11, Lecture 2 on functors): due <b>10 March</b>
-</li>
-<li >Exercise 2 (Exercises 13 and 14, Lecture 3 on universal properties): due <b>30 March</b>
-</li>
-<li >Exercise 3 (Exercises 15 and 17, Lecture 8 on string diagrams): due <b>30 May</b>
-</li>
-</li>
-<li >Written essay (research <a href="http://arca.di.uminho.pt/quantum-logic-2122/TP-21-22">project</a>): due <b>22 June</b>
-</li>
+<li>Module 1: Exercise 1: due <b>...</b></li>
+<li>Module 1: Exercise 2: due <b>...</b></li>
+<li>Module 1: Exercise 3: due <b>...</b></li>
+<li>Module 2: Exercise 1: due <b>...</b></li>
+<li>Module 2: Exercise 2: due <b>...</b></li>
+<li>Module 2: Exercise 3: due <b>...</b></li>
 </ul>
- <!--   <strong> <font color="red">Presentation and discussion: Friday, Mar 5</font></strong> -->
-</li>
+  <P>
+<li> (60%) Written essay (1 per each module)
+    <ul> 
+<li>Module 1: Written essay: due <b> 22 March</b></li>
+<li>Module 2: Written essay: due <b> 7 June</b></li>
+</ul>
 </ul>
 
 <h5><a name="Contacto"></a> Contacts </h5>
 
 <ul>
-  <li> Lectures: T - Tuesday, 11-13 (Ed.3, 1.02)| TP Thursday 09-11 (Ed.1 1.22) 
-  <li> Appointments: Wed, 18:00-20:00 (please send an email the day before) 
+  <li> Lectures: T - Tuesday, 11-13 (Building 2, 1.09)| TP Tuesday 09-11(Building 2, 2.04)
+  <li> Appointments (Luís): Wed, 18:00-20:00 (please send an email the day before) 
   <li> Email: lsb arroba di ponto uminho ponto pt
-  <li> Last update: 2022.05.23
+  <li> Appointments (Nori): Wed, 15:30-17:30 (please send an email the day before) 
+  <li> Email:  norihiro1988 arroba gmail ponto com
+  <li> Last update: 2024.02.02
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -655,7 +555,7 @@ at <a href="https://inl.int">INL</a> </li>
 
 <div class="panel-footer" id="wrapper-footer">
 <div id="footer">
-2022.05.23
+2024.02.02
 </div>
 </div>
 
